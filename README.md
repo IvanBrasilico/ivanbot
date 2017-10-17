@@ -1,24 +1,22 @@
 Bottery test application.
 Needs bottery installed (Currently my version).
 
-Install and run:
+Installing:
 
+```
 git clone https://github.com/IvanBrasilico/ivanbot.git
-
 cd ivanbot
-
 git clone https://github.com/IvanBrasilico/bottery.git
-
 mv bottery bottery_core
-
 ln -s bottery_core/bottery bottery 
+```
 
+Running:
 
-Create a bot on https://telegram.me/botfather
+First create a bot on https://telegram.me/botfather
 
-create a settings.py archive:
-
-'''
+Then create a settings.py archive with your token:
+```
 HOSTNAME = ''
 
 PLATFORMS = {
@@ -29,7 +27,10 @@ PLATFORMS = {
         }
     },
 }
-'''
+```
 
-RUN:
-#python3 app.py
+Now you can run your bot:
+
+```
+python3 app.py
+```
