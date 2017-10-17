@@ -13,4 +13,21 @@ mv bottery bottery_core
 
 ln -s bottery_core/bottery bottery 
 
-python3 app.py
+
+Create a bot on https://telegram.me/botfather
+
+create a settings.py archive:
+
+HOSTNAME = ''
+
+PLATFORMS = {
+    'telegram': {
+        'ENGINE': 'bottery.platform.telegram',
+        'OPTIONS': {
+            'token': '@BotFather:will_give_you_a_token',
+        }
+    },
+}
+
+RUN:
+#python3 app.py
