@@ -18,7 +18,7 @@ Create a bot on https://telegram.me/botfather
 
 create a settings.py archive:
 
-HOSTNAME = ''
+"""HOSTNAME = ''
 
 PLATFORMS = {
     'telegram': {
@@ -27,7 +27,7 @@ PLATFORMS = {
             'token': '@BotFather:will_give_you_a_token',
         }
     },
-}
+}"""
 
 RUN:
 #python3 app.py
