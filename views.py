@@ -3,9 +3,6 @@
 São as funcões que geram o conteúdo para a submissão à
 API que o Usuário acessa.
 '''
-import json
-import urllib.request
-
 
 ULRAPP = 'http://brasilico.pythonanywhere.com/'
 STATUS = ['OK', 'Divergente', 'Sem Lacre']
