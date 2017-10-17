@@ -1,0 +1,8 @@
+
+bottery_core/
+
+__pycache__/
+
+settings\.py
+
+bottery
