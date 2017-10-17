@@ -3,7 +3,7 @@ Needs bottery installed (Currently my version).
 
 Install and run:
 
-'git clone https://github.com/IvanBrasilico/ivanbot.git
+git clone https://github.com/IvanBrasilico/ivanbot.git
 
 cd ivanbot
 
@@ -13,4 +13,4 @@ mv bottery bottery_core
 
 ln -s bottery_core/bottery bottery 
 
-python3 app.py'
+python3 app.py
